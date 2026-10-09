@@ -1,9 +1,6 @@
-/* slide: s2-link · indicator 1 · block 0 — the first rule only */
-
 h1 {
   color: #09226e;
 }
-/* Reset Dasar & Pengaturan Font */
 
 * {
   margin: 0;
@@ -31,7 +28,7 @@ header p:first-child a {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #f4ce14; /* Warna Kuning Lemon untuk Judul Utama */
+  color: #f4ce14;
   text-decoration: none;
 }
 
@@ -46,7 +43,7 @@ header p:last-child {
   color: #ffffff;
 }
 
-/* Styling Navigasi */
+
 nav {
 background-color: #393838;
 }
@@ -89,7 +86,6 @@ color: #333333;
   }
 }
 
-/* Styling Bagian Main Content */
 main {
   max-width: 900px;
   margin: 30px auto;
@@ -111,7 +107,6 @@ margin-top: 25px;
 margin-bottom: 10px;
 }
 
-/* Kartu / Item Menu */
 main > div {
 background: #ffffff;
 border-radius: 8px;
@@ -136,11 +131,10 @@ color: #333333;
 
 main > div p:last-child {
 font-weight: bold;
-color: #a34724; /* Warna harga aksen oranye */
+color: #a34724;
 font-size: 1.2rem;
 }
 
-/* Styling Tabel Harga */
 table {
 width: 100%;
 border-collapse: collapse;
@@ -164,7 +158,6 @@ tr:hover {
 background-color: #f1f1f1;
 }
 
-/* Styling Form (Halaman Book a Table) */
 form {
 background-color: #ffffff;
 padding: 25px;
@@ -209,9 +202,8 @@ background-color: #f4ce14;
 color: #333333;
 }
 
-/* Styling Footer */
 footer {
-background-color: #ee9972; /* Warna lembut footer */
+background-color: #ee9972; 
 color: #333333;
 text-align: center;
 padding: 20px;
