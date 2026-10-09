@@ -1,0 +1,221 @@
+/* slide: s2-link · indicator 1 · block 0 — the first rule only */
+
+h1 {
+  color: #09226e;
+}
+/* Reset Dasar & Pengaturan Font */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #333333;
+  background-color: #f9f9f9;
+  padding-bottom: 40px;
+  overflow-wrap: break-word;
+}
+
+header {
+  background-color: #495e57;
+  padding: 18px 20px;
+  text-align: center;
+}
+
+header p:first-child a {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f4ce14; /* Warna Kuning Lemon untuk Judul Utama */
+  text-decoration: none;
+}
+
+header p:first-child a:hover {
+color: #ffffff;
+}
+
+header p:last-child {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 5px;
+  color: #ffffff;
+}
+
+/* Styling Navigasi */
+nav {
+background-color: #393838;
+}
+
+nav ul {
+display: flex;
+justify-content: center;
+list-style: none;
+}
+
+nav ul li a {
+display: block;
+color: #ffffff;
+padding: 14px 20px;
+text-decoration: none;
+font-weight: 600;
+transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus-visible,
+nav ul li a[aria-current="page"] {
+background-color: #f4ce14;
+color: #333333;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li + li {
+    border-top: 1px solid #555555;
+  }
+
+  nav ul li a {
+    min-height: 48px;
+    padding: 12px 20px;
+    text-align: center;
+  }
+}
+
+/* Styling Bagian Main Content */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h1 {
+font-family: Georgia, "Times New Roman", serif;
+color: #495e57;
+border-bottom: 3px solid #f4ce14;
+padding-bottom: 8px;
+margin-bottom: 25px;
+}
+
+h2 {
+font-family: Georgia, "Times New Roman", serif;
+color: #495e57;
+margin-top: 25px;
+margin-bottom: 10px;
+}
+
+/* Kartu / Item Menu */
+main > div {
+background: #ffffff;
+border-radius: 8px;
+padding: 15px;
+margin-bottom: 20px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+main > div img {
+border-radius: 6px;
+object-fit: cover;
+margin-bottom: 10px;
+}
+
+main > div h2 {
+margin: 5px 0;
+color: #333333;
+}
+
+main > div p:last-child {
+font-weight: bold;
+color: #a34724; /* Warna harga aksen oranye */
+font-size: 1.2rem;
+}
+
+/* Styling Tabel Harga */
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 15px;
+background-color: #ffffff;
+box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+th, td {
+padding: 12px 15px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+th {
+background-color: #495e57;
+color: #ffffff;
+}
+
+tr:hover {
+background-color: #f1f1f1;
+}
+
+/* Styling Form (Halaman Book a Table) */
+form {
+background-color: #ffffff;
+padding: 25px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+max-width: 500px;
+}
+
+label {
+font-weight: bold;
+color: #495e57;
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+width: 100%;
+padding: 8px 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-bottom: 10px;
+}
+
+input[type="submit"] {
+background-color: #495e57;
+color: #ffffff;
+font-weight: bold;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 15px;
+transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+background-color: #f4ce14;
+color: #333333;
+}
+
+/* Styling Footer */
+footer {
+background-color: #ee9972; /* Warna lembut footer */
+color: #333333;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+font-size: 1rem;
+font-weight: 500;
+}
